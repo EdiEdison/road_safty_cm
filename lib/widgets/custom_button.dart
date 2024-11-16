@@ -1,18 +1,22 @@
 import 'package:flutter/material.dart';
 
 class buttonBuilder extends StatelessWidget {
-  final String? text;
-  final Color? background;
-  final Color? textColor;
-  final VoidCallback? onPressed;
+  final String text;
+  final Color background;
+  final Color textColor;
+  final VoidCallback onPressed;
   const buttonBuilder(
-      {super.key, this.text, this.background, this.textColor, this.onPressed});
+      {super.key,
+      required this.text,
+      required this.background,
+      required this.textColor,
+      required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
+    return GestureDetector(
       onTap: onPressed,
-      child: Ink(
+      child: Container(
         height: 60,
         decoration: BoxDecoration(
             color: background,
@@ -22,7 +26,7 @@ class buttonBuilder extends StatelessWidget {
           children: [
             Expanded(
               child: Text(
-                text!,
+                text,
                 style: TextStyle(
                     fontFamily: "Poppins",
                     fontWeight: FontWeight.w400,

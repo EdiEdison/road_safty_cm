@@ -66,7 +66,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                     context,
                     MaterialPageRoute(builder: (context) => const HomeScreen()),
                   );
-                },
+                }
               ),
             ),
             const Spacer()
