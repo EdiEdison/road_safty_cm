@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:road_safty_cm/onboarding/on_boarding_page.dart';
+import 'package:road_safty_cm/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'Poppins'
       ),
-      home: const OnBoardingPage(),
+      home: const SplashScreen(),
     );
   }
 }

@@ -29,7 +29,7 @@ class _MapScreenState extends State<MapScreen> {
 
   // Initial markers
   List<Marker> _markers = [
-    const Marker(
+     Marker(
       width: 80.0,
       height: 80.0,
       point: LatLng(3.8480, 11.5021),
@@ -39,7 +39,7 @@ class _MapScreenState extends State<MapScreen> {
         size: 40,
       ),
     ),
-    const Marker(
+     Marker(
       width: 80.0,
       height: 80.0,
       point: LatLng(3.8500, 11.5100),
@@ -49,7 +49,7 @@ class _MapScreenState extends State<MapScreen> {
         size: 40,
       ),
     ),
-    const Marker(
+     Marker(
       width: 80.0,
       height: 80.0,
       point: LatLng(3.8520, 11.5200),
@@ -454,7 +454,7 @@ class _MapScreenState extends State<MapScreen> {
             mapController: _mapController,
             options: const MapOptions(
               initialCenter: LatLng(3.8480, 11.5021),
-              initialZoom: 12.5,
+              initialZoom: 13.5,
             ),
             children: [
               TileLayer(
