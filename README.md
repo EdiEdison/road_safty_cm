@@ -1,6 +1,6 @@
 # road_safty_cm
 
-Road Safty Cameroon is an application aimed to help connect Cameroonian Youths with the Authorities and road issues and help make our roads Safer
+Road Safty Cameroon is an application aimed to help connect Cameroonian Youths with the Authorities on road issues and help make our roads Safer
 This is Road Safty Cameroon v1.0 this is aimed to show a prototype on how the application works
 To run the application, follow the steps below 
 
