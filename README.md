@@ -26,6 +26,7 @@ cd <project_directory>
 # Install Dependencies: Run the following command to fetch all required dependencies:
 flutter pub get
 # Run the Application:
+flutter run
 
 For help about the project please contact the number on whatsapp : +237653603453
 
